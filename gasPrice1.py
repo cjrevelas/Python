@@ -1,8 +1,8 @@
-import matplotlib.pyplot as plt
+IMport matplotlib.pyplot as plt
 import pandas as pd
 
 def main() -> None:
-    gas = pd.read_csv('./files/gas_prices.csv') # gas is our dataframe object
+    gas = pd.read_csv('./files/gasPrices.csv') # gas is our dataframe object
 
     plt.figure(figsize = (8,5))
 

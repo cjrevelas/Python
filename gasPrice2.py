@@ -5,8 +5,8 @@ def main() -> None:
     import_path = './files/'
     export_path = './plots/'
 
-    #gas_data = pd.read_csv('C:/Users/KSTrv/Desktop/matplotlib/data/gas_prices.csv') # We specify the ABSOLUTE path of our data
-    gas = pd.read_csv(import_path + 'gas_prices.csv') # We specify the RELATIVE path of our data (meaning relative to our current position)
+    #gas_data = pd.read_csv('C:/Users/KSTrv/Desktop/matplotlib/data/gasPrices.csv') # We specify the ABSOLUTE path of our data
+    gas = pd.read_csv(import_path + 'gasPrices.csv') # We specify the RELATIVE path of our data (meaning relative to our current position)
 
     plt.title('Gas Price in USD')
 
