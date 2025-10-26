@@ -1,2 +1,2 @@
-In this repository, I keep the python
-scripts that I use for my students.
+In this repository, I keep the Python scripts that I use
+to practice on different concepts.
